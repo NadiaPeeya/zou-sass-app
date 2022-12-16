@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.main-section {
+  margin-top: -100px;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+.main-section .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-section .content .content-paragraph {
+  margin-left: 4rem;
+  padding: 4rem;
+}
+.main-section .content .content-paragraph h1 {
+  font-size: 46px;
+  color: #000000;
+}
+.main-section .content .content-paragraph p {
+  font-size: 18px;
+  color: #263238;
+}
+.main-section .content .content-paragraph .button-design {
+  background-color: #66BB6A;
+  margin-top: 2rem;
+  font: 18px;
+  width: 95px;
+  height: 32px;
+  border: 0px;
+  color: #FFFFFF;
+  border-radius: 5px;
+}
+.main-section .content .banner {
+  background: url("../assets1/Object.png");
+  height: 100vh;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.main-section .content .banner img {
+  margin: 3rem;
+}
+.main-section .content .banner .img-farmer {
+  margin-left: -6rem;
+  margin-bottom: -6rem;
+}/*# sourceMappingURL=Section.css.map */

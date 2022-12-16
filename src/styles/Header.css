@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.header {
+  margin-top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 4rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+.header nav .nav-design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.header nav .zou {
+  text-decoration: none;
+}
+.header nav .ul-items {
+  margin-left: 2rem;
+  list-style: none;
+}
+.header nav .ul-items .li-items a {
+  text-decoration: none;
+  color: #000000;
+  margin: 1rem;
+  font-size: 16px;
+}
+.header nav .logo {
+  text-transform: uppercase;
+  margin-right: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+.header nav .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header nav .right-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+  border: 1px solid white;
+  width: 100px;
+  height: 40px;
+}
+.header nav .right-buttons button {
+  margin: 0 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header nav .right-buttons button a {
+  text-decoration: none;
+  color: rgb(97, 93, 93);
+}/*# sourceMappingURL=Header.css.map */
